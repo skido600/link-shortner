@@ -19,7 +19,7 @@ const Advanced: React.FC = () => {
         </section>
         <article>
           <section className="md:flex text-center md:text-left lg:pl-[8rem] mt-8">
-            <div className="bg-white mb-8 mx-4  lg:h-[247px] relative aff z-10 rounded-[5px] p-4">
+            <div className="bg-white  mx-4 md:mx-0  lg:h-[247px] relative z-10 rounded-[5px] p-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full w-[88px] lg:w-[88px] md:w-[70px] md:h-[70px]   lg:h-[88px] h-[88px] px-5 py-5">
                   <img src={Icon1} alt="icon_1" />
@@ -35,8 +35,11 @@ const Advanced: React.FC = () => {
                 content.
               </p>
             </div>
-
-            <div className="bg-white mx-4 mb-12 beff relative  z-10  rounded-[5px] lg:h-[247px]  p-4">
+            <main className="flex justify-center  md:block">
+              <div className="aff"></div>
+            </main>
+            <div className="aff_2 md:block hidden"></div>
+            <div className="bg-white  mx-4 md:mx-0 md:mt-4 relative z-10 rounded-[5px] lg:h-[247px]  p-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full md:w-[70px] md:h-[70px] lg:w-[88px] lg:h-[88px] h-[88px] w-[88px] px-6 py-5">
                   <img src={Icon3} alt="icon_1" />
@@ -52,8 +55,11 @@ const Advanced: React.FC = () => {
                 decisions.
               </p>
             </div>
-
-            <div className="bg-white  mx-4  beff   lg:h-[247px] relative  rounded-[5px] p-4">
+            <main className="flex justify-center md:block">
+              <div className="aff"></div>
+            </main>
+            <div className="aff_2 md:block hidden"></div>
+            <div className="bg-white  mx-4 md:mx-0 beff  md:mt-8  lg:h-[247px] relative  rounded-[5px] p-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full md:w-[70px] md:h-[70px] lg:w-[88px] lg:h-[88px] h-[88px] w-[88px] px-5 py-5">
                   <img src={Icon2} alt="icon_1" />
