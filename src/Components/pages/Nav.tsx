@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
   return (
     <>
       <main>
-        <nav className="flex md:justify-around justify-between px-8 mt-4">
+        <nav className="flex  justify-between px-8 lg:mx-[165px] mt-4">
           <div className="block md:hidden">
             <h1 className="font-bold text-[20px] text-black">Shortly</h1>
           </div>
@@ -32,7 +32,7 @@ const Nav: React.FC = () => {
                 <button className="text-white border-[#494160] border-t-[1px]  md:pt-0 pt-4 ">
                   Login
                 </button>
-                <button className="bg-[#25BDDD] mx-2 mb-[40px] text-[15px] text-white px-4 py-2 rounded-full">
+                <button className="bg-[#25BDDD]  hover:opacity-[0.5] mx-2 mb-[40px] text-[15px] text-white px-4 py-2 rounded-full">
                   Sign Up
                 </button>
               </div>
