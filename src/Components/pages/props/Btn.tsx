@@ -1,10 +1,12 @@
-const Btn: React.FC = () => {
+interface PropBtn {
+  className?: string;
+  text: string;
+}
+const Btn: React.FC<PropBtn> = ({ className, text }) => {
   return (
     <>
       <main>
-        <button className="bg-[#25BDDD] mt-8 md:mt-4  hover:opacity-[0.5]  mb-[40px] text-[15px] text-white px-[40px] py-[12px] rounded-full">
-          Get Started
-        </button>
+        <button className={`${className}`}>{text}</button>
       </main>
     </>
   );

@@ -18,16 +18,16 @@ body {
 ul li,
 .btn_mobile button {
   color: white;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 800;
   line-height: 27px;
   cursor: pointer;
 }
 @media (min-width: 768px) {
   ul li {
     color: #d4d3d9;
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 13px;
     cursor: pointer;
   }
   ul li:hover {
@@ -35,9 +35,9 @@ ul li,
   }
   .btn button:first-child {
     color: #d4d3d9;
-    font-weight: 800;
+    font-weight: 600;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 13px;
   }
   .aff_2 {
     background: #25bddd;

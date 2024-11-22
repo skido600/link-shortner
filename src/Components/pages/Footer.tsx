@@ -8,7 +8,10 @@ const Footer: React.FC = () => {
             Boost your links today
           </h1>
           <div className="flex justify-center">
-            <Btn />
+            <Btn
+              className="bg-[#25BDDD] mt-8 md:mt-4  hover:opacity-[0.5]  mb-[40px] text-[15px] text-white px-[40px] py-[12px] rounded-full"
+              text="Get started"
+            />
           </div>
         </div>
       </main>
