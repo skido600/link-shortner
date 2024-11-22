@@ -18,7 +18,7 @@ const Nav: React.FC = () => {
           </div>
           <div>
             <ul
-              className={`md:flex text-center md:mx-0 mx-[24px]  items-center md:space-x-6 md:top-0 md:space-y-0 space-y-[30px] absolute rounded-lg md:relative left-0 right-0 top-[4rem] ${
+              className={`md:flex text-center md:mx-0 mx-[24px] z-10  items-center md:space-x-6 md:top-0 md:space-y-0 space-y-[30px] absolute rounded-lg md:relative left-0 right-0 top-[4rem] ${
                 toggle ? "bg-[#3A3054]" : "hidden"
               } bg-[#3A3054] md:bg-transparent`}
             >
