@@ -3,7 +3,7 @@ const Hero: React.FC = () => {
   return (
     <>
       <main className=" ">
-        <section className="md:flex md:pl-8 items-center gap-4 justify-around mt-[2rem] flex-row-reverse">
+        <section className="md:flex md:pl-8 items-center gap-4 overflow-hidden justify-around mt-[2rem] flex-row-reverse">
           <img
             src={COM}
             alt="LOGO"
