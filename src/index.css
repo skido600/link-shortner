@@ -10,11 +10,23 @@ body {
   background: #25bddd;
   width: 1.5%;
   position: relative;
-  height: 8vh;
+  height: 6vh;
   top: -1rem;
   z-index: 0;
 }
-
+.ibn img {
+  width: 24px;
+  cursor: pointer;
+}
+ul ol {
+  cursor: pointer;
+}
+ul ol:hover {
+  color: #25bddd;
+}
+.ibn img:hover {
+  color: #25bddd;
+}
 ul li,
 .btn_mobile button {
   color: white;

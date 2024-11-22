@@ -1,8 +1,10 @@
 import Icon1 from "../../assets/icon1.svg";
 import Icon2 from "../../assets/icon2.svg";
 import Icon3 from "../../assets/icon3.svg";
+import Footer from "./Footer";
 import Shorten from "./Shorten";
 // Shorten
+// Footer
 const Advanced: React.FC = () => {
   // const article = [
   //   {
@@ -13,6 +15,7 @@ const Advanced: React.FC = () => {
   //       " Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.",
   //   },
   // ];
+  // foo;
   return (
     <>
       <main className="bg-[#EFF1F7]">
@@ -33,7 +36,7 @@ const Advanced: React.FC = () => {
         </section>
         <article>
           <section className="md:flex text-center md:text-left lg:pl-[8rem] md:mx-8 mt-8">
-            <div className="bg-white mb-4 mx-4 md:mx-0   lg:h-[247px]  relative z-10 rounded-[5px] p-4 md:px-4">
+            <div className="bg-white mb-4 mx-4 md:mx-0   relative z-10 rounded-[5px] p-4 md:px-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full w-[88px] lg:w-[88px] md:w-[70px] md:h-[70px]   lg:h-[88px] h-[88px] px-5 py-5">
                   <img src={Icon1} alt="icon_1" />
@@ -53,7 +56,7 @@ const Advanced: React.FC = () => {
               <div className="aff"></div>
             </main>
             <div className="aff_2 md:block hidden"></div>
-            <div className="bg-white  mx-4 md:mx-0 md:mt-7 relative p-4 mb-4  z-10 rounded-[5px]  md:px-4">
+            <div className="bg-white  mx-3 md:mx-0 md:mt-7 relative p-4 mb-4  z-10 rounded-[5px]  md:px-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full md:w-[70px] md:h-[70px] lg:w-[88px] lg:h-[88px] h-[88px] w-[88px] px-6 py-5">
                   <img src={Icon3} alt="icon_1" />
@@ -73,7 +76,7 @@ const Advanced: React.FC = () => {
               <div className="aff"></div>
             </main>
             <div className="aff_2 md:block hidden"></div>
-            <div className="bg-white p-4  mx-4 md:mx-0 md:mb-4   md:mt-12  lg:h-[247px] relative  rounded-[5px] md:px-4">
+            <div className="bg-white p-4  mx-3 md:mx-0 md:mb-4   md:mt-12  lg:h-[247px] relative  rounded-[5px] md:px-4">
               <section className="flex md:block justify-center">
                 <div className="bg-[#3A3054] mt-[-2.2rem] rounded-full md:w-[70px] md:h-[70px] lg:w-[88px] lg:h-[88px] h-[88px] w-[88px] px-5 py-5">
                   <img src={Icon2} alt="icon_1" />
@@ -90,6 +93,9 @@ const Advanced: React.FC = () => {
             </div>
           </section>
         </article>
+        <div className="mt-8">
+          <Footer />
+        </div>
       </main>
     </>
   );
