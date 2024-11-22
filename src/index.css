@@ -6,7 +6,15 @@
 body {
   font-family: "Poppins", serif;
 }
-
+/* .beff::before {
+  content: "";
+  background: #25bddd;
+  width: 2%;
+  position: absolute;
+  height: 8vh;
+  z-index: 0;
+  top: -4rem;
+} */
 ul li,
 .btn_mobile button {
   color: white;
@@ -31,4 +39,15 @@ ul li,
     cursor: pointer;
     font-size: 15px;
   }
+  /* .beff::before {
+    content: "";
+    background: #25bddd;
+    width: 20%;
+    height: 2vh;
+    position: absolute;
+    left: -50px;
+    top: 4rem;
+    z-index: 0;
+    margin-top: 20px;
+  } */
 }
