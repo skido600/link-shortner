@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
             alt="LOGO"
             className="md:w-[50%] relative left-[3rem] z-0"
           />
-          <article className="text-center lg:w-[50.4%]  md:text-left lg:pl-[9.2rem] ">
+          <article className="text-center lg:w-[50.4%]  md:text-left lg:pl-[9.3rem] ">
             <h1 className="font-[700] lg:text-[65px] lg:tracking-[-2px] lg:leading-[90px] tracking-tight text-[42px] leading-[48px] text-[#34313D]">
               More than just shorter links
             </h1>
