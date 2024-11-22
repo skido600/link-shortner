@@ -10,15 +10,11 @@ body {
   background: #25bddd;
   width: 1.5%;
   position: relative;
-  height: 12vh;
+  height: 8vh;
   top: -1rem;
   z-index: 0;
 }
-/* .beff::before {
-  
-  z-index: 0;
-  top: -4rem;
-} */
+
 ul li,
 .btn_mobile button {
   color: white;
@@ -45,10 +41,10 @@ ul li,
   }
   .aff_2 {
     background: #25bddd;
-    width: 20%;
+    width: 8%;
     position: relative;
     height: 1vh;
 
-    top: 4rem;
+    top: 8rem;
   }
 }

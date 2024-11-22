@@ -1,9 +1,11 @@
 import COM from "../../assets/working_with_computer.svg";
+import Btn from "./props/Btn";
+// Btn
 const Hero: React.FC = () => {
   return (
     <>
       <main className=" ">
-        <section className="md:flex md:pl-8 items-center gap-4 overflow-hidden justify-around mt-[2rem] flex-row-reverse">
+        <section className="md:flex md:pl-8 items-center gap-4 overflow-hidden justify-around mt-[2rem] mb-[8rem] flex-row-reverse">
           <img
             src={COM}
             alt="LOGO"
@@ -18,9 +20,9 @@ const Hero: React.FC = () => {
               your links are performing.
             </p>
             <div>
-              <button className="bg-[#25BDDD] mt-8 md:mt-4  hover:opacity-[0.5]  mb-[40px] text-[15px] text-white px-[40px] py-[12px] rounded-full">
-                Get Started
-              </button>
+              <div>
+                <Btn />
+              </div>
             </div>
           </article>
         </section>
