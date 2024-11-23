@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
             <img
               src={`/assets/working_with_computer.svg`}
               alt="LOGO"
-              className="md:w-[50%] relative left-[3rem] z-0"
+              className=" relative left-[3rem] z-0"
             />
           </figure>
 
