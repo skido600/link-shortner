@@ -1,4 +1,4 @@
-import COM from "../../assets/working_with_computer.svg";
+// import COM from "../../assets/working_with_computer.svg";
 import Btn from "./props/Btn";
 // Btn
 const Hero: React.FC = () => {
@@ -7,11 +7,11 @@ const Hero: React.FC = () => {
       <main className=" ">
         <section className="md:flex md:pl-8 items-center gap-4 overflow-hidden justify-around mt-[2rem] mb-[8rem] flex-row-reverse">
           <img
-            src={COM}
+            src={`/assets/working_with_computer.svg`}
             alt="LOGO"
             className="md:w-[50%] relative left-[3rem] z-0"
           />
-          <article className="text-center lg:w-[50.4%]  md:text-left lg:pl-[9.3rem] ">
+          <article className="text-center mx-4 mt-4 lg:w-[50.4%]  md:text-left lg:pl-[9.3rem] ">
             <h1 className="font-[700] lg:text-[65px] lg:tracking-[-2px] lg:leading-[90px] tracking-tight text-[42px] leading-[48px] text-[#34313D]">
               More than just shorter links
             </h1>

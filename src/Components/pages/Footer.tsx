@@ -1,8 +1,8 @@
 import Btn from "./props/Btn";
-import Logo1 from "../../assets/Path (1).svg";
-import Logo2 from "../../assets/Path (2).svg";
-import Logo3 from "../../assets/Path (3).svg";
-import Logo4 from "../../assets/Shape.svg";
+// import Logo1 from "../../assets/Path (1).svg";
+// import Logo2 from "../../assets/Path (2).svg";
+// import Logo3 from "../../assets/Path (3).svg";
+// import Logo4 from "../../assets/Shape.svg";
 const Footer: React.FC = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </main>
-        <article className="bg-[#232127] text-center md:text-left pt-8 md:flex justify-around">
+        <article className="bg-[#232127] text-center md:text-left pt-8 pb-4 md:flex justify-around">
           <div className="">
             <h1 className="font-bold text-[30px] text-white mb-8 md:mb-0">
               Shortly
@@ -60,10 +60,10 @@ const Footer: React.FC = () => {
             </div>
           </section>
           <div className="flex ibn space-x-4 p-2 mt-4 justify-center">
-            <img src={Logo1} alt="logo_1" />
-            <img src={Logo2} alt="logo_1" />
-            <img src={Logo3} alt="logo_1" />
-            <img src={Logo4} alt="logo_1" />
+            <img src={`/assets/Path (1).svg`} alt="logo_1" />
+            <img src={`/assets/Path (2).svg`} alt="logo_1" />
+            <img src={`/assets/Path (3).svg`} alt="logo_1" />
+            <img src={`/assets/Shape.svg`} alt="logo_1" />
           </div>
         </article>
       </section>
