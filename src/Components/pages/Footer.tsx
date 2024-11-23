@@ -1,8 +1,5 @@
 import Btn from "./props/Btn";
-// import Logo1 from "../../assets/Path (1).svg";
-// import Logo2 from "../../assets/Path (2).svg";
-// import Logo3 from "../../assets/Path (3).svg";
-// import Logo4 from "../../assets/Shape.svg";
+
 const Footer: React.FC = () => {
   return (
     <>
@@ -60,10 +57,18 @@ const Footer: React.FC = () => {
             </div>
           </section>
           <div className="flex ibn space-x-4 p-2 mt-4 justify-center">
-            <img src={`/assets/Path (1).svg`} alt="logo_1" />
-            <img src={`/assets/Path (2).svg`} alt="logo_1" />
-            <img src={`/assets/Path (3).svg`} alt="logo_1" />
-            <img src={`/assets/Shape.svg`} alt="logo_1" />
+            <figure>
+              <img src={`/assets/Path (1).svg`} alt="logo_1" />
+            </figure>
+            <figure>
+              <img src={`/assets/Path (2).svg`} alt="logo_1" />
+            </figure>
+            <figure>
+              <img src={`/assets/Path (3).svg`} alt="logo_1" />
+            </figure>
+            <figure>
+              <img src={`/assets/Shape.svg`} alt="logo_1" />
+            </figure>
           </div>
         </article>
       </section>
