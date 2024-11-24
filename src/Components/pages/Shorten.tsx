@@ -53,7 +53,7 @@ const Shorten: React.FC = () => {
     <main>
       <section className="bg-custom-bg md:mx-8 mx-2 relative mb-4 h-[178px] mt-4 lg:mx-[9.3rem] overflow-hidden rounded-lg">
         <div className="md:grid md:grid-cols-3 gap-4 mx-4 items-center mt-[2rem] md:mt-[5rem] justify-center pl-4">
-          <div className="md:col-span-2 mb-4 md:mb-0">
+          <div className="md:col-span-2 mb-6 md:mb-0">
             <input
               value={value}
               onChange={(e) => {
