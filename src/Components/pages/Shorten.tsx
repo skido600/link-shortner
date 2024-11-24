@@ -99,7 +99,6 @@ const Shorten: React.FC = () => {
       {success && shortenedLink && (
         <section className="md:flex justify-center">
           <main className="w-full py-4 px-2 rounded-lg md:flex justify-between bg-[#FFFFFF]">
-            {/* Display shortened link */}
             <div className="border-b-[1px] md:border-none pb-2 truncate border-[#E7E6E9]">
               {shortenedLink.length > 8
                 ? `${shortenedLink.substring(0, 30)}...`
