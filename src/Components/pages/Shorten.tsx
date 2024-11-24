@@ -83,7 +83,7 @@ const Shorten: React.FC = () => {
             </button>
           </div>
           {error && (
-            <p className="text-red-500 text-sm mt-[-4.8rem] md:mt-[-1rem] italic">
+            <p className="text-red-500 text-sm mt-[-4.3rem] md:mt-[-1rem] italic">
               {error}
             </p>
           )}
